@@ -13,29 +13,52 @@
 # testing
 /coverage
 
-# next.js
+# leftover Next.js (this app is TanStack Start)
 /.next/
 /out/
+
+# tanstack start / vite / nitro
+/.output/
+/dist/
+/.vinxi/
+/.nitro/
+/.tanstack/
+/.turbo/
+.cache/
 
 # production
 /build
 
 # misc
 .DS_Store
+Thumbs.db
 *.pem
+*.key
+*.p12
 
 # debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
+*.log
 
-# env files (can opt-in for committing if needed)
-.env*
+# env files (commit only .env.example)
+.env
+.env.*
+!.env.example
 
-# vercel
+# vercel / neon local
 .vercel
+.neon
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# editor / local agent tooling (not the app)
+.idea/
+.vscode/
+.cursor/
+.agents/
+skills-lock.json

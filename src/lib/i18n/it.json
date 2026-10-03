@@ -1,0 +1,206 @@
+{
+  "app": {
+    "name": "Rhythm",
+    "description": "Promemoria ricorrenti centrati su oggi, per quello che vuoi davvero fare."
+  },
+  "notFound": {
+    "title": "Non trovato",
+    "body": "Questa pagina non esiste."
+  },
+  "nav": {
+    "today": "Oggi",
+    "routines": "Routine",
+    "settings": "Impostazioni",
+    "signOut": "Esci"
+  },
+  "login": {
+    "tagline": "Accedi con l’email. Inviamo un link monouso — nessuna password.",
+    "email": "Email",
+    "emailPlaceholder": "tu@example.com",
+    "domainSuggestions": "Domini email suggeriti",
+    "submit": "Inviami un link di accesso",
+    "sending": "Invio…",
+    "expired": "Link scaduto o già usato. Richiedine uno nuovo.",
+    "sendFailed": "Impossibile inviare il link",
+    "invalidEmail": "Inserisci un indirizzo email reale che puoi aprire.",
+    "disposableEmail": "Le caselle temporanee non sono ammesse. Usa un indirizzo che tieni.",
+    "tooMany": "Troppe email di accesso. Attendi qualche minuto e riprova.",
+    "configError": "Impossibile inviare l’email. Su Brevo verifica il mittente (Impostazioni → Mittenti) e imposta BREVO_API_KEY e EMAIL_FROM.",
+    "checkTitle": "Controlla l’email",
+    "checkBody": "Abbiamo inviato un link di accesso a {{email}}.",
+    "checkPageBody": "Il link di accesso sta arrivando. In locale, guarda il terminale se EMAIL_SERVER non è impostato.",
+    "back": "Torna al login"
+  },
+  "today": {
+    "title": "Oggi",
+    "new": "Nuova",
+    "allClear": "Niente in sospeso per ora.",
+    "waiting_one": "{{count}} promemoria in attesa.",
+    "waiting_other": "{{count}} promemoria in attesa.",
+    "emptyTitle": "Niente in scadenza oggi",
+    "emptyBody": "Aggiungi una routine ricorrente e Rhythm la riporterà al momento giusto.",
+    "addRoutine": "Aggiungi una routine",
+    "overdue": "In ritardo",
+    "skip": "Salta",
+    "undo": "Annulla",
+    "doneToday": "Fatto oggi",
+    "skipped": "Saltato",
+    "doneLate": "Fatto in ritardo",
+    "onTime": "In orario",
+    "markDone": "Segna {{title}} come fatto",
+    "done": "Fatto",
+    "snoozed": "Rimandato",
+    "snoozeLater": "Più tardi",
+    "snoozeTomorrow": "Domani",
+    "snoozePlusTwo": "+2 giorni"
+  },
+  "routines": {
+    "title": "Routine",
+    "subtitle": "Promemoria ricorrenti per casa, igiene e tutto il resto.",
+    "new": "Nuova",
+    "create": "Crea routine",
+    "emptyTitle": "Inizia con una piccola abitudine",
+    "emptyBody": "Lenzuola ogni settimana. Unghie ogni due settimane. Taglio ogni mese.",
+    "paused": "In pausa",
+    "back": "← Routine",
+    "newTitle": "Nuova routine",
+    "newHint": "Di’ a Rhythm quanto spesso deve comparire in Oggi.",
+    "edit": "Modifica",
+    "editTitle": "Modifica routine",
+    "backGeneric": "← Indietro",
+    "completion": "Completamento",
+    "onTime": "In orario",
+    "onTimeStreak": "Serie in orario",
+    "avgDaysLate": "Giorni di ritardo medi",
+    "history": "Cronologia recente",
+    "noHistory": "Nessuna occorrenza ancora.",
+    "pending": "In attesa",
+    "skipped": "Saltato",
+    "doneLate": "Fatto in ritardo",
+    "done": "Fatto"
+  },
+  "form": {
+    "title": "Titolo",
+    "titlePlaceholder": "Cambiare le lenzuola",
+    "notes": "Note",
+    "notesPlaceholder": "Contesto opzionale",
+    "category": "Categoria",
+    "preferredTime": "Orario",
+    "addTime": "Aggiungi un orario",
+    "dayOnly": "In scadenza quel giorno, senza orario.",
+    "howOften": "Quanto spesso",
+    "everyNDays": "Ogni N giorni",
+    "weekly": "Settimanale",
+    "monthly": "Mensile",
+    "interval": "Ogni quanti giorni?",
+    "weekday": "Giorno della settimana",
+    "monthDay": "Giorno del mese (1–31)",
+    "monthDayHint": "Nei mesi più corti si usa l’ultimo giorno (31 diventa 28, 29 o 30).",
+    "startDate": "Prima scadenza",
+    "active": "Attiva (le routine in pausa smettono di generare promemoria)",
+    "saveFailed": "Salvataggio non riuscito",
+    "saving": "Salvataggio…",
+    "create": "Crea routine",
+    "save": "Salva modifiche",
+    "repeatsEveryDay": "Si ripete ogni giorno",
+    "repeatsEveryNDays": "Si ripete ogni {{count}} giorni",
+    "repeatsWeekly": "Si ripete ogni {{day}}",
+    "repeatsMonthly": "Si ripete il giorno {{day}} di ogni mese"
+  },
+  "actions": {
+    "pause": "Metti in pausa",
+    "resume": "Riprendi routine",
+    "delete": "Elimina",
+    "confirmDelete": "Eliminare questa routine e la sua cronologia?"
+  },
+  "settings": {
+    "title": "Impostazioni",
+    "subtitle": "Account, lingua e invio dei promemoria.",
+    "account": "Account",
+    "signedIn": "Accesso effettuato",
+    "timezone": "Fuso orario {{timezone}}",
+    "language": "Lingua",
+    "languageHint": "Si applica su questo dispositivo.",
+    "push": "Promemoria push"
+  },
+  "push": {
+    "unsupported": "Questo browser non supporta le notifiche push. Le app native useranno in seguito la stessa pipeline.",
+    "permission": "Permesso del browser: {{permission}}. Rhythm può avvisarti quando qualcosa è in scadenza o in ritardo.",
+    "working": "Attendere…",
+    "reenable": "Riattiva su questo dispositivo",
+    "turnOn": "Attiva i promemoria",
+    "turnOff": "Disattiva",
+    "notConfigured": "Il push non è ancora configurato sul server.",
+    "blocked": "Le notifiche sono state bloccate per questo browser.",
+    "saveFailed": "Impossibile salvare questo dispositivo.",
+    "enabled": "I promemoria sono attivi su questo dispositivo.",
+    "enableFailed": "Impossibile attivare i promemoria.",
+    "disabled": "I promemoria sono disattivati.",
+    "disableFailed": "Impossibile disattivare i promemoria."
+  },
+  "category": {
+    "household": "Casa",
+    "hygiene": "Igiene",
+    "external": "Fuori",
+    "other": "Altro"
+  },
+  "recurrence": {
+    "everyDay": "Ogni giorno",
+    "everyNDays": "Ogni {{count}} giorni",
+    "weeklyOn": "Ogni settimana il {{day}}",
+    "monthlyOn": "Ogni mese il giorno {{day}}"
+  },
+  "weekday": {
+    "0": "domenica",
+    "1": "lunedì",
+    "2": "martedì",
+    "3": "mercoledì",
+    "4": "giovedì",
+    "5": "venerdì",
+    "6": "sabato"
+  },
+  "weekdayShort": {
+    "0": "dom",
+    "1": "lun",
+    "2": "mar",
+    "3": "mer",
+    "4": "gio",
+    "5": "ven",
+    "6": "sab"
+  },
+  "starters": {
+    "title": "Inizia con qualche abitudine comune",
+    "body": "Tocca un esempio per aggiungerlo. Potrai modificarlo o eliminarlo dopo.",
+    "add": "Aggiungi",
+    "edit": "Modifica",
+    "addAll": "Aggiungi tutti e {{count}}",
+    "adding": "Aggiunta…",
+    "failed": "Impossibile aggiungere la routine.",
+    "tooMany": "Troppe nuove routine. Attendi un minuto e riprova.",
+    "bedsheets": {
+      "title": "Cambiare le lenzuola",
+      "hint": "Ogni settimana",
+      "notes": "Lenzuola pulite, il letto sembra nuovo."
+    },
+    "nails": {
+      "title": "Tagliare le unghie",
+      "hint": "Ogni 2 settimane",
+      "notes": "Un gesto di igiene prima che si spezzino."
+    },
+    "haircut": {
+      "title": "Taglio di capelli",
+      "hint": "Circa ogni 5 settimane",
+      "notes": "Prenota o ricordatelo prima che sia troppo tardi."
+    },
+    "bins": {
+      "title": "Portare fuori la spazzatura",
+      "hint": "Ogni domenica",
+      "notes": "Cambia il giorno nella routine se la raccolta è un altro."
+    },
+    "waterFilter": {
+      "title": "Sostituire il filtro dell’acqua",
+      "hint": "Ogni mese",
+      "notes": "Rubinetto o caraffa: quello che usi davvero."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+node_modules
+.output
+dist
+.next
+.tanstack
+.nitro
+.vinxi
+coverage
+src/routeTree.gen.ts
+package-lock.json
+drizzle
+*.md

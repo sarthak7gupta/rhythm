@@ -1,0 +1,206 @@
+{
+  "app": {
+    "name": "Rhythm",
+    "description": "Wiederkehrende Erinnerungen mit Fokus auf heute, für das, was du wirklich tun willst."
+  },
+  "notFound": {
+    "title": "Nicht gefunden",
+    "body": "Diese Seite gibt es nicht."
+  },
+  "nav": {
+    "today": "Heute",
+    "routines": "Routinen",
+    "settings": "Einstellungen",
+    "signOut": "Abmelden"
+  },
+  "login": {
+    "tagline": "Mit E-Mail anmelden. Wir senden einen einmaligen Link — kein Passwort.",
+    "email": "E-Mail",
+    "emailPlaceholder": "du@example.com",
+    "domainSuggestions": "Vorgeschlagene E-Mail-Domains",
+    "submit": "Login-Link per E-Mail senden",
+    "sending": "Wird gesendet…",
+    "expired": "Link abgelaufen oder schon verwendet. Fordere einen neuen an.",
+    "sendFailed": "Link konnte nicht gesendet werden",
+    "invalidEmail": "Gib eine echte E-Mail-Adresse an, die du öffnen kannst.",
+    "disposableEmail": "Wegwerf-Postfächer sind nicht erlaubt. Nutze eine Adresse, die du behältst.",
+    "tooMany": "Zu viele Anmelde-E-Mails. Warte ein paar Minuten und versuche es erneut.",
+    "configError": "E-Mail konnte nicht gesendet werden. Bei Brevo Absender unter Einstellungen → Absender bestätigen und BREVO_API_KEY plus EMAIL_FROM setzen.",
+    "checkTitle": "E-Mail prüfen",
+    "checkBody": "Wir haben einen Login-Link an {{email}} gesendet.",
+    "checkPageBody": "Ein Login-Link ist unterwegs. Lokal schau ins Terminal, wenn EMAIL_SERVER nicht gesetzt ist.",
+    "back": "Zurück zur Anmeldung"
+  },
+  "today": {
+    "title": "Heute",
+    "new": "Neu",
+    "allClear": "Im Moment nichts Offen.",
+    "waiting_one": "{{count}} Erinnerung wartet.",
+    "waiting_other": "{{count}} Erinnerungen warten.",
+    "emptyTitle": "Heute nichts fällig",
+    "emptyBody": "Füge eine wiederkehrende Routine hinzu, Rhythm bringt sie zur richtigen Zeit zurück.",
+    "addRoutine": "Routine hinzufügen",
+    "overdue": "Überfällig",
+    "skip": "Überspringen",
+    "undo": "Rückgängig",
+    "doneToday": "Heute erledigt",
+    "skipped": "Übersprungen",
+    "doneLate": "Zu spät erledigt",
+    "onTime": "Pünktlich",
+    "markDone": "{{title}} als erledigt markieren",
+    "done": "Erledigt",
+    "snoozed": "Verschoben",
+    "snoozeLater": "Später heute",
+    "snoozeTomorrow": "Morgen",
+    "snoozePlusTwo": "+2 Tage"
+  },
+  "routines": {
+    "title": "Routinen",
+    "subtitle": "Wiederkehrende Erinnerungen für Haushalt, Hygiene und den Rest.",
+    "new": "Neu",
+    "create": "Routine erstellen",
+    "emptyTitle": "Starte mit einer kleinen Gewohnheit",
+    "emptyBody": "Bettwäsche jede Woche. Nägel alle zwei Wochen. Haarschnitt jeden Monat.",
+    "paused": "Pausiert",
+    "back": "← Routinen",
+    "newTitle": "Neue Routine",
+    "newHint": "Sag Rhythm, wie oft das unter Heute erscheinen soll.",
+    "edit": "Bearbeiten",
+    "editTitle": "Routine bearbeiten",
+    "backGeneric": "← Zurück",
+    "completion": "Erledigt",
+    "onTime": "Pünktlich",
+    "onTimeStreak": "Pünktliche Serie",
+    "avgDaysLate": "Tage verspätet ø",
+    "history": "Letzte Historie",
+    "noHistory": "Noch keine Vorkommen.",
+    "pending": "Offen",
+    "skipped": "Übersprungen",
+    "doneLate": "Zu spät erledigt",
+    "done": "Erledigt"
+  },
+  "form": {
+    "title": "Titel",
+    "titlePlaceholder": "Bettwäsche wechseln",
+    "notes": "Notizen",
+    "notesPlaceholder": "Optionaler Kontext",
+    "category": "Kategorie",
+    "preferredTime": "Uhrzeit",
+    "addTime": "Uhrzeit hinzufügen",
+    "dayOnly": "Fällig an dem Tag, ohne Uhrzeit.",
+    "howOften": "Wie oft",
+    "everyNDays": "Alle N Tage",
+    "weekly": "Wöchentlich",
+    "monthly": "Monatlich",
+    "interval": "Alle wie viele Tage?",
+    "weekday": "Wochentag",
+    "monthDay": "Tag im Monat (1–31)",
+    "monthDayHint": "Kürzere Monate nutzen den letzten Tag (aus 31 wird 28, 29 oder 30).",
+    "startDate": "Erstes Fälligkeitsdatum",
+    "active": "Aktiv (pausierte Routinen erzeugen keine neuen Erinnerungen)",
+    "saveFailed": "Speichern fehlgeschlagen",
+    "saving": "Speichern…",
+    "create": "Routine erstellen",
+    "save": "Änderungen speichern",
+    "repeatsEveryDay": "Wiederholt sich jeden Tag",
+    "repeatsEveryNDays": "Wiederholt sich alle {{count}} Tage",
+    "repeatsWeekly": "Wiederholt sich jeden {{day}}",
+    "repeatsMonthly": "Wiederholt sich am {{day}}. jedes Monats"
+  },
+  "actions": {
+    "pause": "Routine pausieren",
+    "resume": "Routine fortsetzen",
+    "delete": "Löschen",
+    "confirmDelete": "Diese Routine und ihre Historie löschen?"
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "subtitle": "Konto, Sprache und Zustellung der Erinnerungen.",
+    "account": "Konto",
+    "signedIn": "Angemeldet",
+    "timezone": "Zeitzone {{timezone}}",
+    "language": "Sprache",
+    "languageHint": "Gilt auf diesem Gerät.",
+    "push": "Push-Erinnerungen"
+  },
+  "push": {
+    "unsupported": "Dieser Browser unterstützt keine Push-Benachrichtigungen. Native Apps nutzen später dieselbe Pipeline.",
+    "permission": "Browser-Berechtigung: {{permission}}. Rhythm kann dich benachrichtigen, wenn etwas fällig oder überfällig ist.",
+    "working": "Bitte warten…",
+    "reenable": "Auf diesem Gerät wieder aktivieren",
+    "turnOn": "Erinnerungen aktivieren",
+    "turnOff": "Ausschalten",
+    "notConfigured": "Push ist auf dem Server noch nicht konfiguriert.",
+    "blocked": "Benachrichtigungen wurden für diesen Browser blockiert.",
+    "saveFailed": "Dieses Gerät konnte nicht gespeichert werden.",
+    "enabled": "Erinnerungen sind auf diesem Gerät an.",
+    "enableFailed": "Erinnerungen konnten nicht aktiviert werden.",
+    "disabled": "Erinnerungen sind aus.",
+    "disableFailed": "Erinnerungen konnten nicht deaktiviert werden."
+  },
+  "category": {
+    "household": "Haushalt",
+    "hygiene": "Hygiene",
+    "external": "Außer Haus",
+    "other": "Sonstiges"
+  },
+  "recurrence": {
+    "everyDay": "Jeden Tag",
+    "everyNDays": "Alle {{count}} Tage",
+    "weeklyOn": "Wöchentlich am {{day}}",
+    "monthlyOn": "Monatlich am {{day}}."
+  },
+  "weekday": {
+    "0": "Sonntag",
+    "1": "Montag",
+    "2": "Dienstag",
+    "3": "Mittwoch",
+    "4": "Donnerstag",
+    "5": "Freitag",
+    "6": "Samstag"
+  },
+  "weekdayShort": {
+    "0": "So",
+    "1": "Mo",
+    "2": "Di",
+    "3": "Mi",
+    "4": "Do",
+    "5": "Fr",
+    "6": "Sa"
+  },
+  "starters": {
+    "title": "Starte mit ein paar üblichen Dingen",
+    "body": "Tippe ein Beispiel zum Hinzufügen. Du kannst es später ändern oder löschen.",
+    "add": "Hinzufügen",
+    "edit": "Bearbeiten",
+    "addAll": "Alle {{count}} hinzufügen",
+    "adding": "Wird hinzugefügt…",
+    "failed": "Routine konnte nicht hinzugefügt werden.",
+    "tooMany": "Zu viele neue Routinen. Warte eine Minute und versuche es erneut.",
+    "bedsheets": {
+      "title": "Bettwäsche wechseln",
+      "hint": "Jede Woche",
+      "notes": "Frische Bettwäsche fühlt sich an wie ein Neustart."
+    },
+    "nails": {
+      "title": "Nägel schneiden",
+      "hint": "Alle 2 Wochen",
+      "notes": "Kleine Hygiene, bevor sie reißen."
+    },
+    "haircut": {
+      "title": "Haarschnitt",
+      "hint": "Etwa alle 5 Wochen",
+      "notes": "Termin machen, bevor es sich überfällig anfühlt."
+    },
+    "bins": {
+      "title": "Müll rausbringen",
+      "hint": "Wöchentlich, sonntags",
+      "notes": "Passe den Wochentag an, wenn die Abholung anders ist."
+    },
+    "waterFilter": {
+      "title": "Wasserfilter wechseln",
+      "hint": "Monatlich",
+      "notes": "Hahn oder Karaffe — was du wirklich benutzt."
+    }
+  }
+}

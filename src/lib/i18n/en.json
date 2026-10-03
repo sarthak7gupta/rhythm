@@ -1,0 +1,206 @@
+{
+  "app": {
+    "name": "Rhythm",
+    "description": "Today-first recurring reminders for the things you keep meaning to do."
+  },
+  "notFound": {
+    "title": "Not found",
+    "body": "That page does not exist."
+  },
+  "nav": {
+    "today": "Today",
+    "routines": "Routines",
+    "settings": "Settings",
+    "signOut": "Sign out"
+  },
+  "login": {
+    "tagline": "Sign in with email. We send a one-time link — no password.",
+    "email": "Email",
+    "emailPlaceholder": "you@example.com",
+    "domainSuggestions": "Suggested email domains",
+    "submit": "Email me a sign-in link",
+    "sending": "Sending…",
+    "expired": "Sign-in link expired or already used. Request a new one.",
+    "sendFailed": "Could not send link",
+    "invalidEmail": "Enter a real email address you can open.",
+    "disposableEmail": "Temporary inboxes aren't allowed. Use an address you keep.",
+    "tooMany": "Too many sign-in emails. Wait a few minutes and try again.",
+    "configError": "Could not send email. For Brevo, verify the sender in Settings → Senders and set BREVO_API_KEY plus EMAIL_FROM. For Resend without a domain, only your Resend account email can receive mail.",
+    "checkTitle": "Check your email",
+    "checkBody": "We emailed a sign-in link to {{email}}.",
+    "checkPageBody": "A sign-in link is on its way. Locally, check the terminal if you haven't set EMAIL_SERVER yet.",
+    "back": "Back to login"
+  },
+  "today": {
+    "title": "Today",
+    "new": "New",
+    "allClear": "All clear for now.",
+    "waiting_one": "{{count}} reminder waiting.",
+    "waiting_other": "{{count}} reminders waiting.",
+    "emptyTitle": "Nothing due today",
+    "emptyBody": "Add a recurring routine and Rhythm will bring it back when it's time.",
+    "addRoutine": "Add a routine",
+    "overdue": "Overdue",
+    "skip": "Skip",
+    "undo": "Undo",
+    "doneToday": "Done today",
+    "skipped": "Skipped",
+    "doneLate": "Done late",
+    "onTime": "On time",
+    "markDone": "Mark {{title}} done",
+    "done": "Done",
+    "snoozed": "Snoozed",
+    "snoozeLater": "Later today",
+    "snoozeTomorrow": "Tomorrow",
+    "snoozePlusTwo": "+2 days"
+  },
+  "routines": {
+    "title": "Routines",
+    "subtitle": "Recurring reminders for household, hygiene, and everything else.",
+    "new": "New",
+    "create": "Create routine",
+    "emptyTitle": "Start with one small habit",
+    "emptyBody": "Bed sheets every week. Nails every two weeks. Haircut every month.",
+    "paused": "Paused",
+    "back": "← Routines",
+    "newTitle": "New routine",
+    "newHint": "Tell Rhythm how often this should show up on Today.",
+    "edit": "Edit",
+    "editTitle": "Edit routine",
+    "backGeneric": "← Back",
+    "completion": "Completion",
+    "onTime": "On time",
+    "onTimeStreak": "On-time streak",
+    "avgDaysLate": "Avg days late",
+    "history": "Recent history",
+    "noHistory": "No occurrences yet.",
+    "pending": "Pending",
+    "skipped": "Skipped",
+    "doneLate": "Done late",
+    "done": "Done"
+  },
+  "form": {
+    "title": "Title",
+    "titlePlaceholder": "Change bed sheets",
+    "notes": "Notes",
+    "notesPlaceholder": "Optional context",
+    "category": "Category",
+    "preferredTime": "Time",
+    "addTime": "Add a time",
+    "dayOnly": "Due on that day, with no clock time.",
+    "howOften": "How often",
+    "everyNDays": "Every N days",
+    "weekly": "Weekly",
+    "monthly": "Monthly",
+    "interval": "Every how many days?",
+    "weekday": "Weekday",
+    "monthDay": "Day of month (1–31)",
+    "monthDayHint": "Shorter months use the last day (31 becomes 28, 29, or 30).",
+    "startDate": "First due date",
+    "active": "Active (paused routines stop generating new reminders)",
+    "saveFailed": "Could not save",
+    "saving": "Saving…",
+    "create": "Create routine",
+    "save": "Save changes",
+    "repeatsEveryDay": "Repeats every day",
+    "repeatsEveryNDays": "Repeats every {{count}} days",
+    "repeatsWeekly": "Repeats every {{day}}",
+    "repeatsMonthly": "Repeats on day {{day}} each month"
+  },
+  "actions": {
+    "pause": "Pause routine",
+    "resume": "Resume routine",
+    "delete": "Delete",
+    "confirmDelete": "Delete this routine and its history?"
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Account, language, and reminder delivery.",
+    "account": "Account",
+    "signedIn": "Signed in",
+    "timezone": "Timezone {{timezone}}",
+    "language": "Language",
+    "languageHint": "Applies on this device.",
+    "push": "Push reminders"
+  },
+  "push": {
+    "unsupported": "This browser does not support push notifications. Native apps will use the same reminder pipeline later.",
+    "permission": "Browser permission: {{permission}}. Rhythm can ping you when something is due or overdue.",
+    "working": "Working…",
+    "reenable": "Re-enable on this device",
+    "turnOn": "Turn on reminders",
+    "turnOff": "Turn off",
+    "notConfigured": "Push is not configured on the server yet.",
+    "blocked": "Notifications were blocked for this browser.",
+    "saveFailed": "Could not save this device.",
+    "enabled": "Reminders are on for this device.",
+    "enableFailed": "Could not enable reminders.",
+    "disabled": "Reminders are off.",
+    "disableFailed": "Could not disable reminders."
+  },
+  "category": {
+    "household": "Household",
+    "hygiene": "Hygiene",
+    "external": "External",
+    "other": "Other"
+  },
+  "recurrence": {
+    "everyDay": "Every day",
+    "everyNDays": "Every {{count}} days",
+    "weeklyOn": "Weekly on {{day}}",
+    "monthlyOn": "Monthly on day {{day}}"
+  },
+  "weekday": {
+    "0": "Sunday",
+    "1": "Monday",
+    "2": "Tuesday",
+    "3": "Wednesday",
+    "4": "Thursday",
+    "5": "Friday",
+    "6": "Saturday"
+  },
+  "weekdayShort": {
+    "0": "Sun",
+    "1": "Mon",
+    "2": "Tue",
+    "3": "Wed",
+    "4": "Thu",
+    "5": "Fri",
+    "6": "Sat"
+  },
+  "starters": {
+    "title": "Start with a few usual ones",
+    "body": "Tap any example to add it. You can change the schedule or delete it later.",
+    "add": "Add",
+    "edit": "Edit",
+    "addAll": "Add all {{count}}",
+    "adding": "Adding…",
+    "failed": "Could not add that routine.",
+    "tooMany": "Too many new routines. Wait a minute and try again.",
+    "bedsheets": {
+      "title": "Change bed sheets",
+      "hint": "Every week",
+      "notes": "Fresh sheets make the bed feel like a reset."
+    },
+    "nails": {
+      "title": "Trim nails",
+      "hint": "Every 2 weeks",
+      "notes": "A small hygiene pass before they snag."
+    },
+    "haircut": {
+      "title": "Haircut",
+      "hint": "About every 5 weeks",
+      "notes": "Book or remind yourself before it feels overdue."
+    },
+    "bins": {
+      "title": "Take the bins out",
+      "hint": "Weekly, Sundays",
+      "notes": "Move collection night in the routine if yours is a different day."
+    },
+    "waterFilter": {
+      "title": "Replace water filter",
+      "hint": "Monthly",
+      "notes": "Kitchen tap or pitcher — whatever you actually use."
+    }
+  }
+}
