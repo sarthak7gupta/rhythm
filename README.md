@@ -1,6 +1,6 @@
 # Rhythm
 
-**Live App:** [https://tracker-six-blond.vercel.app](https://tracker-six-blond.vercel.app)
+**Live App:** [https://rhythm-today.vercel.app](https://rhythm-today.vercel.app)
 
 Today-first recurring reminders for household chores, hygiene, and other life maintenance — built for ADHD brains that need a clear “what’s due now” list, not a crowded month calendar.
 
